@@ -1,0 +1,9 @@
+fastapi>=0.141.1
+uvicorn[standard]>=0.35.0
+pydantic>=2.13.5
+pydantic-settings>=2.10.1
+python-dotenv>=1.1.1
+httpx>=0.28.1
+openai>=1.109.0
+google-genai>=2.25.0
+requests>=2.34.0

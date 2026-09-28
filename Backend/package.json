@@ -1,0 +1,11 @@
+{
+  "name": "intervexa-backend",
+  "private": true,
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "npm --prefix server run dev",
+    "build": "npm --prefix server run build",
+    "start": "npm --prefix server run start",
+    "install:server": "npm --prefix server install"
+  }
+}

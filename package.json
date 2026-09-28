@@ -1,0 +1,14 @@
+{
+  "name": "intervexa-platform",
+  "private": true,
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "npm --prefix Frontend run dev",
+    "dev:frontend": "npm --prefix Frontend run dev",
+    "dev:backend": "npm --prefix Backend run dev",
+    "dev:ai": "powershell -Command \"cd ai-engine; .\\.venv\\Scripts\\python.exe -m uvicorn app.main:app --port 8000 --reload\"",
+    "build": "npm --prefix Frontend run build && npm --prefix Backend run build",
+    "build:frontend": "npm --prefix Frontend run build",
+    "build:backend": "npm --prefix Backend run build"
+  }
+}
